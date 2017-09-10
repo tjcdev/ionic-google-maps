@@ -26,8 +26,8 @@ import { HomePage } from '../pages/home/home';
   ],
   providers: [
     StatusBar,
-    SplashScreen,
     Geolocation,
+    SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
